@@ -1,0 +1,41 @@
+.search {
+  background-color: white;
+  padding: 10px;
+}
+
+.search-container {
+  display: flex;
+  border-radius: 10px;
+}
+
+.load-block {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.load-block div {
+  display: flex;
+  flex-direction: row;
+}
+
+.unload-block {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.unload-block div {
+  display: flex;
+  flex-direction: row;
+}
+
+.search-select {
+  margin: 20px 0px;
+}
+
+@media (max-width: 375px) {
+  .search {
+    display: none;
+  }
+}

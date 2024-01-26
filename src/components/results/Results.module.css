@@ -1,0 +1,89 @@
+.resultsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0px;
+}
+
+.resultsTags {
+  max-width: 150px;
+  max-height: 30px;
+  border: "1px solid #ECEDEE";
+  background-color: "FAFAFA";
+  padding: "5px 10px";
+  border-radius: "50px";
+  display: "flex";
+  align-items: "center";
+  margin-right: "5px";
+}
+
+.mobileOrder {
+  display: none;
+}
+
+.paginationResult {
+  display: none;
+}
+
+@media (max-width: 375px) {
+  .paginationResult {
+    display: block;
+  }
+
+  .resultsContainer {
+    display: none;
+  }
+
+  .mobileOrdersList {
+    height: 100%;
+  }
+
+  .mobileOrder {
+    display: block;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 15px;
+    margin: 10px 0px;
+  }
+
+  .firstOrderBlock {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .firstOrderBlockInner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .firstOrderBlockInnerAmount {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+
+  .firstOrderBlockInnerTruck {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+
+  .secondOrderBlock {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .secondOrderBlockInner {
+    display: flex;
+    align-items: center;
+  }
+
+  .paginationResult {
+    margin: 10px 10px 20px 10px;
+  }
+}

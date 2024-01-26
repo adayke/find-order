@@ -1,0 +1,19 @@
+.navigation-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.navigation-icons {
+  display: flex; /* Flexbox */
+  justify-content: center; /* по горизонтали */
+  align-items: center; /* по вертикали */
+  flex-direction: column; /* вертикально */
+}
+
+.navigation-icons img {
+  margin: 10px 0;
+}
