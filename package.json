@@ -2,7 +2,7 @@
   "name": "my-transport-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://adayke.github.io/find-order.github.io",
+  "homepage": "https://adayke.github.io/find-order",
   "dependencies": {
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
